@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point of the program
@@ -9,6 +9,15 @@
  */
 int main(int __attribute__((unused)) argc, char **argv)
 {
-	printf("%s\n", argv[0]);
+	print_program_name(argv[0]);
 	return (0);
+}
+
+/**
+ * print_program_name - Prints the name of the program
+ * @name: The name of the program
+ */
+void print_program_name(char *name)
+{
+    printf("%s\n", name);
 }
