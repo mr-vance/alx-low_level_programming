@@ -51,7 +51,7 @@ int multiply(int num1, int num2)
  *
  * Return: 0 if successful, 1 if error
  */
-int main(int argc, char **argv)
+int main(int __attribute__((unused)) argc, char **argv)
 {
 	int arg_count = count_arguments(argv);
 	int num1, num2, result;
