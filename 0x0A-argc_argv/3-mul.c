@@ -17,20 +17,6 @@ int count_arguments(char **argv)
 	return (count - 1); /* Subtract 1 to exclude the program name */
 }
 
-/**
- * print_arguments - Prints all command-line arguments
- * @argv: An array of command-line arguments
- */
-void print_arguments(char **argv)
-{
-	int i = 0;
-
-	while (argv[i] != NULL)
-	{
-		printf("%s\n", argv[i]);
-		i++;
-	}
-}
 
 /**
  * multiply - Multiplies two numbers
