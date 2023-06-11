@@ -13,6 +13,7 @@ int main(int __attribute__((unused)) argc, char **argv)
 	return (0);
 }
 
+
 /**
  * print_program_name - Prints the name of the program
  * @name: The name of the program
