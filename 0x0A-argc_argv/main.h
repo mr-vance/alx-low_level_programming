@@ -5,5 +5,6 @@
 
 void print_program_name(char *name);
 int count_arguments(char **argv);
+void print_arguments(char **argv);
 
 #endif /* MAIN_H */
