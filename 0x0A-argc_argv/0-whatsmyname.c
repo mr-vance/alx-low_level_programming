@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - Entry point of the program
@@ -7,20 +7,8 @@
  *
  * Return: 0 on success
  */
-int main(int argc, char *argv[])
+int main(int __attribute__((unused)) argc, char **argv)
 {
-    /* Suppress unused parameter warning */
-    (void)argc;
-
-    print_program_name(argv[0]);
-    return 0;
-}
-
-/**
- * print_program_name - Prints the name of the program
- * @name: The name of the program
- */
-void print_program_name(char *name)
-{
-    printf("%s\n", name);
+	printf("%s\n", argv[0]);
+	return (0);
 }
