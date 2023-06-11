@@ -2,6 +2,7 @@
 #define MAIN_H
 
 #include <stdio.h>
+#include <stdlib.h>
 
 void print_program_name(char *name);
 int count_arguments(char **argv);
