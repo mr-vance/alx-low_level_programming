@@ -14,7 +14,7 @@ int count_arguments(char **argv)
 	while (argv[count] != NULL)
 		count++;
 
-	return count - 1; /* Subtract 1 to exclude the program name */
+	return (count - 1); /* Subtract 1 to exclude the program name */
 }
 
 /**
@@ -30,5 +30,5 @@ int main(int __attribute__((unused)) argc, char **argv)
 
 	printf("%d\n", arg_count);
 
-	return 0;
+	return (0);
 }
