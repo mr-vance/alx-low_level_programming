@@ -14,7 +14,7 @@ int count_arguments(char **argv)
 	while (argv[count] != NULL)
 		count++;
 
-	return count;
+	return count - 1; /*Subtract 1 to exclude the program name*/
 }
 
 /**
@@ -24,7 +24,7 @@ int count_arguments(char **argv)
  *
  * Return: Always 0 (Success)
  */
-int main(int argc, char **argv)
+int main(int __attribute__((unused)) argc, char **argv)
 {
 	int arg_count = count_arguments(argv);
 
