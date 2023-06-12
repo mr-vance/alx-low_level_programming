@@ -13,5 +13,8 @@ int is_digit(char c);
 int is_valid_number(char *str);
 int sum_positive_numbers(int argc, char *argv[]);
 int min_coins(int cents);
+int add_positive_numbers(int argc, char *argv[]);
+int is_positive_number(char *str);
+int add_positive_numbers(int argc, char *argv[]);
 
 #endif /* MAIN_H */
