@@ -1,15 +1,15 @@
 # 0x09. C - Static libraries
 **C**
-By: Julien Barbier
-Weight: 1
-Ongoing second chance project - started Jun 9, 2023 6:00 AM, must end by Jun 15, 2023 6:00 AM
-An auto review will be launched at the deadline
+- By: Julien Barbier
+- Weight: 1
+- Ongoing second chance project - started Jun 9, 2023 6:00 AM, must end by Jun 15, 2023 6:00 AM
+- An auto review will be launched at the deadline
 
 ## In a nutshell…
-Auto QA review: 0.0/24 mandatory
-Altogether: 0.0%
-Mandatory: 0.0%
-Optional: no optional tasks
+- Auto QA review: 0.0/24 mandatory
+- Altogether: 0.0%
+- Mandatory: 0.0%
+- Optional: no optional tasks
 
 ## Concepts
 For this project, we expect you to look at this concept:
@@ -34,10 +34,10 @@ At the end of this project, you are expected to be able to explain to anyone, wi
   - Basic usage of ar, ranlib, nm
 
 ## Copyright - Plagiarism
-You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-You are not allowed to publish any content of this project.
-Any form of plagiarism is strictly forbidden and will result in removal from the program.
+- You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
+- You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
+- You are not allowed to publish any content of this project.
+- Any form of plagiarism is strictly forbidden and will result in removal from the program.
 
 ## Requirements
 ### C
@@ -72,8 +72,8 @@ Great! You've completed the quiz successfully! Keep going! (Show quiz)
 ## Tasks
 ### 0. A library is not a luxury but one of the necessities of life
 **mandatory**
-Score: 0.0% (Checks completed: 0.0%)
-Create the static library libmy.a containing all the functions listed below:
+- Score: 0.0% (Checks completed: 0.0%)
+- Create the static library libmy.a containing all the functions listed below:
 
 ```c
 int _putchar(char c);
@@ -206,14 +206,14 @@ julien@ubuntu:~/0x09. Static Librairies$
 ```
 **Repo:**
 
-GitHub repository: `alx-low_level_programming`
-Directory: `0x09-static_libraries`
-File: `libmy.a, main.h`
+- GitHub repository: `alx-low_level_programming`
+- Directory: `0x09-static_libraries`
+- File: `libmy.a, main.h`
 
 ### 1. Without libraries what have we? We have no past and no future
 **mandatory**
-Score: 0.0% (Checks completed: 0.0%)
-Create a script called create_static_lib.sh that creates a static library called liball.a from all the .c files that are in the current directory.
+- Score: 0.0% (Checks completed: 0.0%)
+- Create a script called create_static_lib.sh that creates a static library called liball.a from all the .c files that are in the current directory.
 
 ```shell
 julien@ubuntu:~/0x09. Static Librairies$ ls *.c
@@ -247,9 +247,9 @@ julien@ubuntu:~/0x09. Static Librairies$
 ```
 **Repo:**
 
-GitHub repository: `alx-low_level_programming`
-Directory: `0x09-static_libraries`
-File: `create_static_lib.sh`
+- GitHub repository: `alx-low_level_programming`
+- Directory: `0x09-static_libraries`
+- File: `create_static_lib.sh`
 
 Copyright © 2023 ALX
 ```
