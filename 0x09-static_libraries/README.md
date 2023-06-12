@@ -74,6 +74,7 @@ Great! You've completed the quiz successfully! Keep going! (Show quiz)
 **mandatory**
 Score: 0.0% (Checks completed: 0.0%)
 Create the static library libmy.a containing all the functions listed below:
+
 ```c
 int _putchar(char c);
 int _islower(int c);
@@ -95,11 +96,11 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
-
+```
 If you haven’t coded all of the above functions create empty ones with the right prototype.
 Don’t forget to push your main.h file to your repository. It should at least contain all the prototypes of the above functions.
 
-```
+```bash
 julien@ubuntu:~/0x09. Static Librairies$ ar -t libmy.a
 0-isupper.o
 0-memset.o
@@ -184,6 +185,9 @@ _putchar.o:
 0000000000000000 T _putchar
                  U write
 julien@ubuntu:~/0x09. Static Librairies$ cat main.c
+```
+
+```c
 #include "main.h"
 
 int main(void)
@@ -191,17 +195,20 @@ int main(void)
     _puts("\"At the end of the day, my goal was to be the best hacker\"\n\t- Kevin Mitnick");
     return (0);
 }
+```
+
+```bash
 julien@ubuntu:~/0x09. Static Librairies$ gcc -std=gnu89 main.c -L. -lmy -o quote
 julien@ubuntu:~/0x09. Static Librairies$ ./quote
 "At the end of the day, my goal was to be the best hacker"
     - Kevin Mitnick
 julien@ubuntu:~/0x09. Static Librairies$
-
+```
 **Repo:**
 
-GitHub repository: alx-low_level_programming
-Directory: 0x09-static_libraries
-File: libmy.a, main.h
+GitHub repository: `alx-low_level_programming`
+Directory: `0x09-static_libraries`
+File: `libmy.a, main.h`
 
 ### 1. Without libraries what have we? We have no past and no future
 **mandatory**
@@ -237,12 +244,12 @@ julien@ubuntu:~/0x09. Static Librairies$ ar -t liball.a
 9-strcpy.o
 _putchar.o
 julien@ubuntu:~/0x09. Static Librairies$
-
+```
 **Repo:**
 
-GitHub repository: alx-low_level_programming
-Directory: 0x09-static_libraries
-File: create_static_lib.sh
+GitHub repository: `alx-low_level_programming`
+Directory: `0x09-static_libraries`
+File: `create_static_lib.sh`
 
 Copyright © 2023 ALX
 ```
