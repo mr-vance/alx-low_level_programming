@@ -39,7 +39,7 @@ int is_valid_number(char *str)
  * Return: The sum of the positive numbers, or 0 if no numbers are passed,
  *         or 1 if there is an invalid number
  */
-int sum_positive_numbers(int argc, char *argv[])
+int sum_positive_numbers(int __attribute__((unused)) argc, char *argv[])
 {
 	int i, num, sum = 0;
 	int invalid_number = 0;
