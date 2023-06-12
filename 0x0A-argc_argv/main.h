@@ -12,5 +12,6 @@ int multiply(int num1, int num2);
 int is_digit(char c);
 int is_valid_number(char *str);
 int sum_positive_numbers(int argc, char *argv[]);
+int min_coins(int cents);
 
 #endif /* MAIN_H */
