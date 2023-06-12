@@ -39,9 +39,10 @@ int is_valid_number(char *str)
  * Return: The sum of the positive numbers, or 0 if no numbers are passed,
  *         or 1 if there is an invalid number
  */
-int sum_positive_numbers(int __attribute__((unused)) argc, char *argv[])
+int sum_positive_numbers(int argc, char *argv[])
 {
 	int i, num, sum = 0;
+	int invalid_number = 0;
 
 	if (argc <= 1)
 		return (0);
@@ -56,13 +57,19 @@ int sum_positive_numbers(int __attribute__((unused)) argc, char *argv[])
 		}
 		else
 		{
-			printf("Error\n");
-			return (1);
+			invalid_number = 1;
 		}
+	}
+
+	if (invalid_number)
+	{
+		printf("Error\n");
+		return (1);
 	}
 
 	return (sum);
 }
+
 
 /**
  * main - Entry point of the program
@@ -77,5 +84,6 @@ int main(int __attribute__((unused)) argc, char *argv[])
 
 	printf("%d\n", result);
 
-	return (result == 1 ? 1 : 0);
+	return (result == 0 ? 0 : 1);
+
 }
