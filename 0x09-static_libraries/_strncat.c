@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * _strncat - Concatenates at most n characters from the string pointed to by src
- *            to the end of the string pointed to by dest.
+ * _strncat - Concatenates at most n characters 
+ * from the string pointed to by src
+ * to the end of the string pointed to by dest.
  * @dest: The destination string.
  * @src: The source string.
  * @n: The maximum number of characters to be appended.
