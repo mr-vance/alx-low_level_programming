@@ -15,5 +15,9 @@ char *argstostr(int ac, char **av);
 void print_tab(char **tab);
 char **strtow(char *str);
 int count_words(char *str);
+int split_words(char *str, char **words);
+char **allocate_words(int word_count);
+void copy_word(char *word, char *str, int start, int end);
+
 
 #endif /* MAIN_H */
