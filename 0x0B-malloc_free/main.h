@@ -12,5 +12,8 @@ void print_grid(int **grid, int width, int height);
 int **alloc_grid(int width, int height);
 void free_grid(int **grid, int height);
 char *argstostr(int ac, char **av);
+void print_tab(char **tab);
+char **strtow(char *str);
+int count_words(char *str);
 
 #endif /* MAIN_H */
