@@ -9,6 +9,5 @@
 int _isalpha(int c)
 {
 	/* Implementation of _isalpha function */
-	// Replace this line with your own implementation
-	return isalpha(c);
+	return (isalpha(c));
 }

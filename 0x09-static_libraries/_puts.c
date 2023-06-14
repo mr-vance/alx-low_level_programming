@@ -7,6 +7,5 @@
 void _puts(char *s)
 {
 	/* Implementation of _puts function */
-	// Replace this line with your own implementation
 	puts(s);
 }

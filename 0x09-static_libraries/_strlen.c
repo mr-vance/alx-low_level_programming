@@ -9,6 +9,5 @@
 int _strlen(char *s)
 {
 	/* Implementation of _strlen function */
-	// Replace this line with your own implementation
-	return strlen(s);
+	return (strlen(s));
 }

@@ -11,6 +11,5 @@
 char *_strcpy(char *dest, char *src)
 {
 	/* Implementation of _strcpy function */
-	// Replace this line with your own implementation
-	return strcpy(dest, src);
+	return (strcpy(dest, src));
 }

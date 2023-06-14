@@ -9,6 +9,5 @@
 int _abs(int n)
 {
 	/* Implementation of _abs function */
-	// Replace this line with your own implementation
-	return abs(n);
+	return (abs(n));
 }

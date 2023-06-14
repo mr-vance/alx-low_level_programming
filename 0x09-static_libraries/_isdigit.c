@@ -9,6 +9,5 @@
 int _isdigit(int c)
 {
 	/* Implementation of _isdigit function */
-	// Replace this line with your own implementation
-	return isdigit(c);
+	return (isdigit(c));
 }

@@ -9,6 +9,5 @@
 int _islower(int c)
 {
 	/* Implementation of _islower function */
-	// Replace this line with your own implementation
-	return islower(c);
+	return (islower(c));
 }

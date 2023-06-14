@@ -9,6 +9,5 @@
 int _isupper(int c)
 {
 	/* Implementation of _isupper function */
-	// Replace this line with your own implementation
-	return isupper(c);
+	return (isupper(c));
 }

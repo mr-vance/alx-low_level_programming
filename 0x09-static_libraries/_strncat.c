@@ -12,6 +12,5 @@
 char *_strncat(char *dest, char *src, int n)
 {
 	/* Implementation of _strncat function */
-	// Replace this line with your own implementation
-	return strncat(dest, src, n);
+	return (strncat(dest, src, n));
 }

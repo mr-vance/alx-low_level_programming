@@ -10,6 +10,5 @@
 int _putchar(char c)
 {
 	/* Implementation of _putchar function */
-	// Replace this line with your own implementation
-	return putchar(c);
+	return (putchar(c));
 }

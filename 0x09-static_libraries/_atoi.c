@@ -9,6 +9,5 @@
 int _atoi(char *s)
 {
 	/* Implementation of _atoi function */
-	// Replace this line with your own implementation
-	return atoi(s);
+	return (atoi(s));
 }
