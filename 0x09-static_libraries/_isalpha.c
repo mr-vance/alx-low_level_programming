@@ -1,6 +1,14 @@
 #include "main.h"
 
-int _isalpha(int c) {
-    /* Implementation of _isalpha function */
-    return isalpha(c);
+/**
+ * _isalpha - Checks for an alphabetic character.
+ * @c: The character to be checked.
+ *
+ * Return: 1 if c is a letter, 0 otherwise.
+ */
+int _isalpha(int c)
+{
+	/* Implementation of _isalpha function */
+	// Replace this line with your own implementation
+	return isalpha(c);
 }
