@@ -1,6 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stdio.h>   // For standard input/output operations
+#include <ctype.h>   // For character handling functions
+#include <stdlib.h>  // For general-purpose functions
+#include <string.h>  // For string handling functions
+
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);

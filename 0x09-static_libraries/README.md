@@ -252,4 +252,3 @@ julien@ubuntu:~/0x09. Static Librairies$
 - File: `create_static_lib.sh`
 
 Copyright © 2023 ALX
-```
