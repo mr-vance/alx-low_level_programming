@@ -1,7 +1,7 @@
 # C - More malloc, free
 
-Repository: alx-low_level_programming
-Directory: 0x0C-more_malloc_free
+- Repository: `alx-low_level_programming`
+- Directory: `0x0C-more_malloc_free`
 
 ## Tasks:
 
